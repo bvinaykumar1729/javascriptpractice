@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+var num=23;
+var fact=0;
+for(i=1; i=<num; i++)
+{
+if(num%i==0)
+{
+fact++;
+
+}}
+if(fact==2)
+{
+document.write("Given number is Prime");
+}
+</script>
+</body>
+</html>

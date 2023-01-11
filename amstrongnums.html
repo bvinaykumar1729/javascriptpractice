@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+var num=789;
+var digit=0,rem,sum=0;
+var num1=num;
+while(num!=0)
+{
+num=parseInt(num/10);
+digit++;
+}
+document.write("number of digits" +digit+"<br>");
+num=num1;
+while(num>0)
+{
+rem=num%10;
+sum+Math.pow(rem,digit);
+num=parseInt(num/10);
+}
+document.write(sum);
+if(num=sum)
+{
+document.write("arm strong number");
+}
+</script>
+</body>
+</html>

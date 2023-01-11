@@ -1,0 +1,17 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+var year=2000;
+if(year%4==0)
+{
+document.write("leap year");
+}
+else
+{
+document.write("not a leap year");
+}
+</script>
+</body>
+</html>
