@@ -3,14 +3,11 @@
 </head>
 <body>
 <script>
-var year=2000;
-if(year%4==0)
+var num;
+for(i=1992;i<=2022;i++)
 {
-document.write("leap year");
-}
-else
-{
-document.write("not a leap year");
+if(i%2==0)
+document.write(i);
 }
 </script>
 </body>

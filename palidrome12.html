@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+var num=133,rem,temp,sum=0;
+temp=num;
+while(num!=0)
+{
+rem=num%10;
+sum=sum*10+rem;
+num=parseInt(num/10);
+}
+if(sum==temp)
+document.write("palidrome");
+else
+document.write("not palidrome");
+</script>
+</body>
+</html>

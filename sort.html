@@ -1,0 +1,44 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+
+var heros=["Batman","Antman","Ironman","Thor","Thanos","Spidy"];
+document.write("Arrays before inserting"+heros);
+heros.sort();
+document.write("<br><br>Arrays after inserting"+heros);
+</script>
+
+<br><br><br>
+<script>
+var dc=["Superman","Batman","Flash"];
+var marvel=["Ironman","Thanos","Hulk","Blackpanther"];
+var heros=dc.concat(marvel);
+document.write("<br><br> Heros:"+heros);
+</script>
+
+<br><br><br>
+<script>
+var dc=["Superman","Batman","flash"];
+var marvel=["Ironman","Thanos","Hulk","Blackpanther"];
+var heros=dc.concat(marvel);
+document.write("<br><br> Heros:"+heros.join("#"));
+</script>
+
+<br><br><br>
+<script>
+var marvel=["Ironman","Thanos","Hulk","Black"];
+[hero1,hero2,hero3,hero4]=marvel;
+document.write(heros);
+</script>
+
+<br><br><br>
+<script>
+var marvel=["Ironman","Thanos","Hulk"];
+[hero1,hero2,...dummyheros]=marvel;
+document.write(dummyheros);
+</script>
+</body>
+</html>
+
